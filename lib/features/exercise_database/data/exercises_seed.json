@@ -1,0 +1,667 @@
+[
+  {
+    "id": "ex_001",
+    "name": "Dumbbell Bench Press",
+    "muscle_group": "Chest",
+    "secondary_muscles": ["Triceps", "Shoulders"],
+    "equipment_required": ["Dumbbells", "Bench"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=VmB1G1K7v94",
+    "gif_url": "assets/animations/dumbbell_bench_press.gif",
+    "instructions": [
+      "Lie flat on a bench holding two dumbbells at chest level with palms facing forward",
+      "Press the dumbbells up until your arms are fully extended",
+      "Lower the dumbbells back down to chest level in a controlled manner",
+      "Keep your feet flat on the floor and maintain a slight arch in your lower back"
+    ],
+    "tempo": "3-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_002", "ex_005", "ex_007"]
+  },
+  {
+    "id": "ex_002",
+    "name": "Incline Dumbbell Press",
+    "muscle_group": "Chest",
+    "secondary_muscles": ["Shoulders", "Triceps"],
+    "equipment_required": ["Dumbbells", "Adjustable Bench"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=8iPEnn-ltC8",
+    "gif_url": "assets/animations/incline_dumbbell_press.gif",
+    "instructions": [
+      "Set bench to 30-45 degree incline",
+      "Sit on bench with dumbbells at shoulder level",
+      "Press dumbbells straight up until arms are extended",
+      "Lower back down to shoulder level with control"
+    ],
+    "tempo": "3-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_001", "ex_003"]
+  },
+  {
+    "id": "ex_003",
+    "name": "Decline Dumbbell Press",
+    "muscle_group": "Chest",
+    "secondary_muscles": ["Triceps", "Shoulders"],
+    "equipment_required": ["Dumbbells", "Decline Bench"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=LfyQBUKR8SE",
+    "gif_url": "assets/animations/decline_dumbbell_press.gif",
+    "instructions": [
+      "Set bench to 15-30 degree decline and secure feet",
+      "Hold dumbbells at chest level with palms forward",
+      "Press dumbbells up until arms are fully extended",
+      "Lower back down to chest level in controlled motion"
+    ],
+    "tempo": "3-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_001", "ex_002"]
+  },
+  {
+    "id": "ex_004",
+    "name": "Dumbbell Flyes",
+    "muscle_group": "Chest",
+    "secondary_muscles": ["Shoulders"],
+    "equipment_required": ["Dumbbells", "Bench"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=eozdVDA78K0",
+    "gif_url": "assets/animations/dumbbell_flyes.gif",
+    "instructions": [
+      "Lie flat on bench with dumbbells extended above chest",
+      "Lower dumbbells in wide arc to sides until chest stretch is felt",
+      "Keep slight bend in elbows throughout movement",
+      "Bring dumbbells back up in same arc to starting position"
+    ],
+    "tempo": "3-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_001", "ex_006"]
+  },
+  {
+    "id": "ex_005",
+    "name": "Close-Grip Dumbbell Press",
+    "muscle_group": "Chest",
+    "secondary_muscles": ["Triceps", "Shoulders"],
+    "equipment_required": ["Dumbbells", "Bench"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=rgbJsQdZ5s4",
+    "gif_url": "assets/animations/close_grip_dumbbell_press.gif",
+    "instructions": [
+      "Lie flat on bench with dumbbells touching at chest level",
+      "Keep dumbbells close together throughout movement",
+      "Press up until arms are fully extended",
+      "Lower back down maintaining narrow grip position"
+    ],
+    "tempo": "3-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_001", "ex_028"]
+  },
+  {
+    "id": "ex_006",
+    "name": "Push-ups (Wide Grip)",
+    "muscle_group": "Chest",
+    "secondary_muscles": ["Shoulders", "Triceps", "Core"],
+    "equipment_required": ["None"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=IODxDxX7oi4",
+    "gif_url": "assets/animations/wide_pushups.gif",
+    "instructions": [
+      "Start in plank position with hands wider than shoulder-width",
+      "Lower body until chest nearly touches floor",
+      "Keep core tight and body in straight line",
+      "Push back up to starting position"
+    ],
+    "tempo": "2-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_001", "ex_004"]
+  },
+  {
+    "id": "ex_007",
+    "name": "Dips (Chest Variation)",
+    "muscle_group": "Chest",
+    "secondary_muscles": ["Triceps", "Shoulders"],
+    "equipment_required": ["Dip Bars", "Parallel Bars"],
+    "difficulty": "Advanced",
+    "video_url": "https://www.youtube.com/watch?v=2z8JmcrW-As",
+    "gif_url": "assets/animations/chest_dips.gif",
+    "instructions": [
+      "Grip parallel bars and support body weight",
+      "Lean torso forward about 30 degrees",
+      "Lower body by bending elbows until stretch in chest",
+      "Push back up to starting position"
+    ],
+    "tempo": "3-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_001", "ex_006"]
+  },
+  {
+    "id": "ex_008",
+    "name": "Plank",
+    "muscle_group": "Abs",
+    "secondary_muscles": ["Core", "Shoulders"],
+    "equipment_required": ["None"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=ASdvN_XEl_c",
+    "gif_url": "assets/animations/plank.gif",
+    "instructions": [
+      "Start in forearm plank position with elbows under shoulders",
+      "Keep body in straight line from head to heels",
+      "Engage core and squeeze glutes",
+      "Hold position for specified time"
+    ],
+    "tempo": "Hold",
+    "is_compound": false,
+    "alternatives": ["ex_009", "ex_013"]
+  },
+  {
+    "id": "ex_009",
+    "name": "Side Plank",
+    "muscle_group": "Abs",
+    "secondary_muscles": ["Obliques", "Core"],
+    "equipment_required": ["None"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=K2VljzCC16g",
+    "gif_url": "assets/animations/side_plank.gif",
+    "instructions": [
+      "Lie on side with forearm on ground, elbow under shoulder",
+      "Stack feet and lift hips off ground",
+      "Keep body in straight line from head to feet",
+      "Hold position, then repeat on other side"
+    ],
+    "tempo": "Hold",
+    "is_compound": false,
+    "alternatives": ["ex_008", "ex_012"]
+  },
+  {
+    "id": "ex_010",
+    "name": "Hanging Leg Raises",
+    "muscle_group": "Abs",
+    "secondary_muscles": ["Hip Flexors", "Grip"],
+    "equipment_required": ["Pull-up Bar"],
+    "difficulty": "Advanced",
+    "video_url": "https://www.youtube.com/watch?v=hdng3Nm1x_E",
+    "gif_url": "assets/animations/hanging_leg_raises.gif",
+    "instructions": [
+      "Hang from pull-up bar with arms fully extended",
+      "Keep legs straight and raise them up toward chest",
+      "Lift until legs are parallel to ground or higher",
+      "Lower legs back down with control"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_011", "ex_013"]
+  },
+  {
+    "id": "ex_011",
+    "name": "Bicycle Crunches",
+    "muscle_group": "Abs",
+    "secondary_muscles": ["Obliques"],
+    "equipment_required": ["None"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=9FGilxCbdz8",
+    "gif_url": "assets/animations/bicycle_crunches.gif",
+    "instructions": [
+      "Lie on back with hands behind head",
+      "Bring right elbow to left knee while extending right leg",
+      "Switch sides in pedaling motion",
+      "Keep core engaged throughout movement"
+    ],
+    "tempo": "1-0-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_012", "ex_008"]
+  },
+  {
+    "id": "ex_012",
+    "name": "Russian Twists",
+    "muscle_group": "Abs",
+    "secondary_muscles": ["Obliques"],
+    "equipment_required": ["Dumbbell"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=wkD8rjkodUI",
+    "gif_url": "assets/animations/russian_twists.gif",
+    "instructions": [
+      "Sit on floor with knees bent and feet elevated",
+      "Hold dumbbell with both hands at chest",
+      "Rotate torso to right, bringing weight beside hip",
+      "Rotate to left side, alternating in controlled manner"
+    ],
+    "tempo": "1-0-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_011", "ex_009"]
+  },
+  {
+    "id": "ex_013",
+    "name": "Dead Bug",
+    "muscle_group": "Abs",
+    "secondary_muscles": ["Core", "Hip Flexors"],
+    "equipment_required": ["None"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=g_BYB0R-4Ws",
+    "gif_url": "assets/animations/dead_bug.gif",
+    "instructions": [
+      "Lie on back with arms extended toward ceiling",
+      "Bring knees to 90-degree angle",
+      "Lower right arm and left leg simultaneously",
+      "Return to start and repeat with opposite limbs"
+    ],
+    "tempo": "2-0-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_008", "ex_011"]
+  },
+  {
+    "id": "ex_014",
+    "name": "Pull-ups (Wide Grip)",
+    "muscle_group": "Back",
+    "secondary_muscles": ["Biceps", "Forearms"],
+    "equipment_required": ["Pull-up Bar"],
+    "difficulty": "Advanced",
+    "video_url": "https://www.youtube.com/watch?v=eGo4IYlbE5g",
+    "gif_url": "assets/animations/wide_pullups.gif",
+    "instructions": [
+      "Hang from bar with hands wider than shoulder-width, palms forward",
+      "Pull body up until chin is above bar",
+      "Keep core engaged and avoid swinging",
+      "Lower back down with control"
+    ],
+    "tempo": "2-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_015", "ex_016"]
+  },
+  {
+    "id": "ex_015",
+    "name": "Chin-ups",
+    "muscle_group": "Back",
+    "secondary_muscles": ["Biceps", "Forearms"],
+    "equipment_required": ["Pull-up Bar"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=brhRXlOhkZ4",
+    "gif_url": "assets/animations/chinups.gif",
+    "instructions": [
+      "Hang from bar with hands shoulder-width apart, palms facing you",
+      "Pull body up until chin clears bar",
+      "Squeeze shoulder blades together at top",
+      "Lower body back down with control"
+    ],
+    "tempo": "2-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_014", "ex_016"]
+  },
+  {
+    "id": "ex_016",
+    "name": "Single-Arm Dumbbell Row",
+    "muscle_group": "Back",
+    "secondary_muscles": ["Biceps", "Core"],
+    "equipment_required": ["Dumbbell", "Bench"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=XQqrY73mkfI",
+    "gif_url": "assets/animations/single_arm_row.gif",
+    "instructions": [
+      "Place one knee and hand on bench for support",
+      "Hold dumbbell in opposite hand with arm extended",
+      "Pull dumbbell up to hip, keeping elbow close to body",
+      "Lower back down with control, repeat on other side"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_017", "ex_014"]
+  },
+  {
+    "id": "ex_017",
+    "name": "Bent-Over Dumbbell Row",
+    "muscle_group": "Back",
+    "secondary_muscles": ["Biceps", "Core", "Lower Back"],
+    "equipment_required": ["Dumbbells"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=6TSP1TRMUzs",
+    "gif_url": "assets/animations/bent_over_row.gif",
+    "instructions": [
+      "Stand with feet hip-width apart, holding dumbbells",
+      "Hinge at hips, keeping back flat at 45-degree angle",
+      "Pull dumbbells to sides of torso, squeezing shoulder blades",
+      "Lower dumbbells back down with control"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_016", "ex_014"]
+  },
+  {
+    "id": "ex_018",
+    "name": "Reverse Dumbbell Flyes",
+    "muscle_group": "Back",
+    "secondary_muscles": ["Rear Delts", "Traps"],
+    "equipment_required": ["Dumbbells", "Bench"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=AcxtLD_tNiI",
+    "gif_url": "assets/animations/reverse_flyes.gif",
+    "instructions": [
+      "Sit on edge of bench, bend forward at waist",
+      "Hold dumbbells with arms hanging down, slight bend in elbows",
+      "Raise dumbbells out to sides in wide arc",
+      "Lower back down with control"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_023", "ex_017"]
+  },
+  {
+    "id": "ex_019",
+    "name": "Dumbbell Shoulder Press",
+    "muscle_group": "Shoulders",
+    "secondary_muscles": ["Triceps", "Upper Chest"],
+    "equipment_required": ["Dumbbells", "Bench"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=qEwKCR5JCog",
+    "gif_url": "assets/animations/shoulder_press.gif",
+    "instructions": [
+      "Sit on bench with back support, dumbbells at shoulder level",
+      "Press dumbbells overhead until arms are fully extended",
+      "Keep core engaged and avoid arching lower back",
+      "Lower back down to shoulder level with control"
+    ],
+    "tempo": "2-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_020", "ex_022"]
+  },
+  {
+    "id": "ex_020",
+    "name": "Lateral Raises",
+    "muscle_group": "Shoulders",
+    "secondary_muscles": ["Traps"],
+    "equipment_required": ["Dumbbells"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=3VcKaXpzqRo",
+    "gif_url": "assets/animations/lateral_raises.gif",
+    "instructions": [
+      "Stand with dumbbells at sides, slight bend in elbows",
+      "Raise dumbbells out to sides until arms are parallel to floor",
+      "Lead with elbows, not hands",
+      "Lower back down with control"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_022", "ex_019"]
+  },
+  {
+    "id": "ex_021",
+    "name": "Front Raises",
+    "muscle_group": "Shoulders",
+    "secondary_muscles": ["Upper Chest"],
+    "equipment_required": ["Dumbbells"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=2yjwXTZQDDI",
+    "gif_url": "assets/animations/front_raises.gif",
+    "instructions": [
+      "Stand with dumbbells in front of thighs",
+      "Raise dumbbells forward and up until shoulder height",
+      "Keep arms straight with slight bend in elbows",
+      "Lower back down with control"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_019", "ex_020"]
+  },
+  {
+    "id": "ex_022",
+    "name": "Arnold Press",
+    "muscle_group": "Shoulders",
+    "secondary_muscles": ["Triceps", "Upper Chest"],
+    "equipment_required": ["Dumbbells", "Bench"],
+    "difficulty": "Advanced",
+    "video_url": "https://www.youtube.com/watch?v=6Z15_WdXmVw",
+    "gif_url": "assets/animations/arnold_press.gif",
+    "instructions": [
+      "Sit with dumbbells at shoulder level, palms facing you",
+      "Press up while rotating palms to face forward",
+      "Extend arms fully overhead",
+      "Reverse motion, rotating palms back toward you as you lower"
+    ],
+    "tempo": "2-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_019", "ex_020"]
+  },
+  {
+    "id": "ex_023",
+    "name": "Rear Delt Flyes (Standing)",
+    "muscle_group": "Shoulders",
+    "secondary_muscles": ["Upper Back", "Traps"],
+    "equipment_required": ["Dumbbells"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=T7gWBB3zHqI",
+    "gif_url": "assets/animations/rear_delt_flyes.gif",
+    "instructions": [
+      "Stand with feet hip-width apart, bend forward at waist",
+      "Hold dumbbells with arms hanging down",
+      "Raise dumbbells out to sides, squeezing shoulder blades",
+      "Lower back down with control"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_018", "ex_020"]
+  },
+  {
+    "id": "ex_024",
+    "name": "Dumbbell Bicep Curls",
+    "muscle_group": "Arms",
+    "secondary_muscles": ["Forearms"],
+    "equipment_required": ["Dumbbells"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=ykJmrZ5v0Oo",
+    "gif_url": "assets/animations/bicep_curls.gif",
+    "instructions": [
+      "Stand with dumbbells at sides, palms facing forward",
+      "Curl dumbbells up toward shoulders",
+      "Keep elbows stationary at sides",
+      "Lower back down with control"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_025", "ex_015"]
+  },
+  {
+    "id": "ex_025",
+    "name": "Hammer Curls",
+    "muscle_group": "Arms",
+    "secondary_muscles": ["Forearms", "Brachialis"],
+    "equipment_required": ["Dumbbells"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=zC3nLlEvin4",
+    "gif_url": "assets/animations/hammer_curls.gif",
+    "instructions": [
+      "Stand with dumbbells at sides, palms facing each other",
+      "Curl dumbbells up keeping palms facing inward",
+      "Keep elbows stationary at sides",
+      "Lower back down with control"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_024", "ex_015"]
+  },
+  {
+    "id": "ex_026",
+    "name": "Concentration Curls",
+    "muscle_group": "Arms",
+    "secondary_muscles": ["Forearms"],
+    "equipment_required": ["Dumbbell", "Bench"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=Jvj2wV0vOqY",
+    "gif_url": "assets/animations/concentration_curls.gif",
+    "instructions": [
+      "Sit on bench, rest elbow against inner thigh",
+      "Hold dumbbell with arm fully extended",
+      "Curl weight up toward shoulder",
+      "Lower back down with control, repeat on other arm"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_024", "ex_025"]
+  },
+  {
+    "id": "ex_027",
+    "name": "Overhead Tricep Extension",
+    "muscle_group": "Arms",
+    "secondary_muscles": ["Shoulders"],
+    "equipment_required": ["Dumbbell"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=YbX7Wd8jQ-Q",
+    "gif_url": "assets/animations/overhead_tricep_extension.gif",
+    "instructions": [
+      "Stand or sit with dumbbell held overhead with both hands",
+      "Lower dumbbell behind head by bending elbows",
+      "Keep upper arms stationary and close to head",
+      "Extend arms back to starting position"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_028", "ex_007"]
+  },
+  {
+    "id": "ex_028",
+    "name": "Tricep Kickbacks",
+    "muscle_group": "Arms",
+    "secondary_muscles": [],
+    "equipment_required": ["Dumbbells"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=6SS6K3lAwZ8",
+    "gif_url": "assets/animations/tricep_kickbacks.gif",
+    "instructions": [
+      "Bend forward at waist with dumbbells in hands",
+      "Keep upper arms parallel to torso, elbows bent at 90 degrees",
+      "Extend forearms back until arms are straight",
+      "Return to starting position with control"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_027", "ex_007"]
+  },
+  {
+    "id": "ex_029",
+    "name": "Diamond Push-ups",
+    "muscle_group": "Arms",
+    "secondary_muscles": ["Chest", "Shoulders"],
+    "equipment_required": ["None"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=J0DnG1_S92I",
+    "gif_url": "assets/animations/diamond_pushups.gif",
+    "instructions": [
+      "Start in plank position with hands together forming diamond shape",
+      "Keep elbows close to body",
+      "Lower body until chest nearly touches hands",
+      "Push back up to starting position"
+    ],
+    "tempo": "2-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_027", "ex_028"]
+  },
+  {
+    "id": "ex_030",
+    "name": "Goblet Squats",
+    "muscle_group": "Legs",
+    "secondary_muscles": ["Core", "Glutes"],
+    "equipment_required": ["Dumbbell"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=MeHQ7vBck0o",
+    "gif_url": "assets/animations/goblet_squats.gif",
+    "instructions": [
+      "Hold dumbbell vertically at chest level with both hands",
+      "Stand with feet shoulder-width apart",
+      "Lower body into squat position, keeping chest up",
+      "Drive through heels to return to starting position"
+    ],
+    "tempo": "3-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_031", "ex_032"]
+  },
+  {
+    "id": "ex_031",
+    "name": "Bulgarian Split Squats",
+    "muscle_group": "Legs",
+    "secondary_muscles": ["Glutes", "Core"],
+    "equipment_required": ["Dumbbells", "Bench"],
+    "difficulty": "Advanced",
+    "video_url": "https://www.youtube.com/watch?v=2C-uNgKwPLE",
+    "gif_url": "assets/animations/bulgarian_split_squats.gif",
+    "instructions": [
+      "Place rear foot on bench behind you",
+      "Hold dumbbells at sides",
+      "Lower body until front thigh is parallel to ground",
+      "Drive through front heel to return to starting position"
+    ],
+    "tempo": "3-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_030", "ex_032"]
+  },
+  {
+    "id": "ex_032",
+    "name": "Dumbbell Lunges",
+    "muscle_group": "Legs",
+    "secondary_muscles": ["Glutes", "Core"],
+    "equipment_required": ["Dumbbells"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=QOVaHwm-Q6U",
+    "gif_url": "assets/animations/dumbbell_lunges.gif",
+    "instructions": [
+      "Stand with dumbbells at sides",
+      "Step forward with one leg, lowering hips",
+      "Lower until both knees are bent at 90 degrees",
+      "Push back to starting position and repeat with other leg"
+    ],
+    "tempo": "2-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_030", "ex_031"]
+  },
+  {
+    "id": "ex_033",
+    "name": "Romanian Deadlifts",
+    "muscle_group": "Legs",
+    "secondary_muscles": ["Hamstrings", "Glutes", "Lower Back"],
+    "equipment_required": ["Dumbbells"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=1uDiW5--rAE",
+    "gif_url": "assets/animations/romanian_deadlifts.gif",
+    "instructions": [
+      "Stand with feet hip-width apart, holding dumbbells in front of thighs",
+      "Hinge at hips, pushing hips back while lowering dumbbells",
+      "Keep back flat and slight bend in knees",
+      "Drive hips forward to return to starting position"
+    ],
+    "tempo": "3-1-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_030", "ex_031"]
+  },
+  {
+    "id": "ex_034",
+    "name": "Dumbbell Step-ups",
+    "muscle_group": "Legs",
+    "secondary_muscles": ["Glutes", "Core"],
+    "equipment_required": ["Dumbbells", "Bench"],
+    "difficulty": "Intermediate",
+    "video_url": "https://www.youtube.com/watch?v=dQqApCGd5Ss",
+    "gif_url": "assets/animations/dumbbell_stepups.gif",
+    "instructions": [
+      "Stand facing bench with dumbbells at sides",
+      "Step up onto bench with one foot",
+      "Drive through heel to bring other foot up",
+      "Step back down and repeat, alternating legs"
+    ],
+    "tempo": "2-0-1-0",
+    "is_compound": true,
+    "alternatives": ["ex_030", "ex_032"]
+  },
+  {
+    "id": "ex_035",
+    "name": "Calf Raises (Dumbbell)",
+    "muscle_group": "Legs",
+    "secondary_muscles": ["Calves"],
+    "equipment_required": ["Dumbbells"],
+    "difficulty": "Beginner",
+    "video_url": "https://www.youtube.com/watch?v=JFy4SbpXr_w",
+    "gif_url": "assets/animations/calf_raises.gif",
+    "instructions": [
+      "Stand with dumbbells at sides, feet hip-width apart",
+      "Rise up onto toes as high as possible",
+      "Hold briefly at top",
+      "Lower heels back down with control"
+    ],
+    "tempo": "2-1-1-0",
+    "is_compound": false,
+    "alternatives": ["ex_030", "ex_034"]
+  }
+]

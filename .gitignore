@@ -1,0 +1,150 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+pubspec.lock
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# ============================================================================
+# SECURITY - PRIVATE DATA & SECRETS (CRITICAL - DO NOT REMOVE)
+# ============================================================================
+
+# Environment variables - NEVER commit these files
+.env
+.env.local
+.env.*.local
+.env.prod
+.env.staging
+.env.development
+.env.test
+*.env
+
+# API Keys and Firebase credentials
+api_keys.dart
+firebase_options.dart
+**/google-services.json
+**/GoogleService-Info.plist
+**/serviceAccountKey.json
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.p8
+*.pfx
+*.jks
+*.keystore
+**/keystore/**
+
+# AWS credentials
+.aws/
+aws_credentials
+aws_access_key
+
+# Firebase specific
+firebase-debug.log
+.firebaserc
+.firebase/
+firebase.json
+
+# API Keys in constants (if accidentally committed)
+lib/core/constants/api_keys.dart
+lib/core/constants/*api*
+lib/core/constants/*secret*
+lib/core/constants/*key*
+
+# OAuth tokens and sessions
+**/.oauth_tokens
+**/*oauth*
+**/auth_token*
+**/refresh_token*
+
+# Local configuration files with secrets
+local.properties
+local_development.properties
+
+# IDE secrets
+.vscode/settings.local.json
+.idea/workspace.xml
+.idea/shelf
+
+# Coverage
+coverage/
+
+# BMad related
+_bmad-output/
+_bmad/

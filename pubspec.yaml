@@ -1,0 +1,114 @@
+name: forty_five_min
+description: Smart fitness coaching app with automated body analytics and adaptive workout planning
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.6.1 # Update to latest resolvable
+  
+  # Navigation
+  go_router: ^17.0.1 # Update to latest resolvable
+  
+  # Health Integration (HealthKit)
+  health: ^13.3.0 # Update to latest resolvable
+  
+  # API & Networking
+  dio: ^5.4.0 # Keep as is if no newer version or breaking changes
+  retrofit: ^4.0.3 # Keep as is if no newer version or breaking changes
+  json_annotation: ^4.10.0 # Update to latest resolvable
+  http: ^1.2.0 # For Spoonacular API
+  flutter_dotenv: ^5.1.0 # Environment variables
+  
+  # Local Storage
+  shared_preferences: ^2.2.2 # Keep as is if no newer version or breaking changes
+  sqflite: ^2.3.2 # Keep as is if no newer version or breaking changes
+  path_provider: ^2.1.2 # Keep as is if no newer version or breaking changes
+  
+  # UI Components
+  cupertino_icons: ^1.0.6 # Keep as is if no newer version or breaking changes
+  fl_chart: ^1.1.1 # Update to latest resolvable
+  shimmer: ^3.0.0 # Keep as is if no newer version or breaking changes
+  lottie: ^3.3.2 # Update to latest resolvable
+  cached_network_image: ^3.4.1 # Update to latest resolvable
+  share_plus: ^7.0.0 # Sharing functionality
+  
+  # Utilities
+  intl: ^0.20.2 # Update to latest resolvable
+  uuid: ^4.3.3 # Keep as is if no newer version or breaking changes
+  equatable: ^2.0.5 # Keep as is if no newer version or breaking changes
+  
+  # Notifications
+  flutter_local_notifications: ^17.2.3 # Local notifications
+  permission_handler: ^11.3.1 # Permission handling
+  timezone: ^0.9.4 # Timezone support for scheduling
+  
+  # Firebase - **CRITICAL UPDATES HERE**
+  firebase_core: ^4.4.0 # CHANGE THIS LINE
+  firebase_storage: ^13.0.6 # CHANGE THIS LINE
+  cloud_firestore: ^6.1.2  # Re-enabled for video streaming
+  
+  # Video Player
+  video_player: ^2.8.1 # Keep as is if no newer version or breaking changes
+  chewie: ^1.7.1 # Keep as is if no newer version or breaking changes
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0 # Update to latest resolvable
+  
+  # Code Generation
+  build_runner: ^2.10.5 # Update to latest resolvable
+  json_serializable: ^6.12.0 # Update to latest resolvable
+  retrofit_generator: ^10.2.1 # Update to latest resolvable
+  
+  # App Icon Generation
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
+    - assets/logo/
+    - lib/features/exercise_database/data/exercises_seed_mapped.json
+    - lib/features/exercise_database/data/firebase_mapping.json
+    - .env
+  
+  # fonts:
+  #   - family: Montserrat
+  #     fonts:
+  #       - asset: assets/fonts/Montserrat-Regular.ttf
+  #       - asset: assets/fonts/Montserrat-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Montserrat-SemiBold.ttf
+  #         weight: 600
+
+# Configuration for app icon generation
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/logo/logo.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/logo/logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/logo/logo.png"
+
