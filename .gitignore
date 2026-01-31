@@ -148,3 +148,5 @@ coverage/
 # BMad related
 _bmad-output/
 _bmad/
+
+.github/agents/
